@@ -9,6 +9,6 @@ class MainController extends Controller
 {
     public function show($id)
     {
-        return view('profile', ['user' => User::findOrFail($id)]);
+        return view('profile', ['user' => User::findOrFail($id)]); //test
     }
 }
