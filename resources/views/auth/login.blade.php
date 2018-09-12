@@ -1,5 +1,6 @@
+@extends('layouts.app')
 @section('content')
-<div>
+<div class="my-3 p-3 bg-white rounded shadow-sm">
     <form>
         <div class="form-group">
             <label for="usernameInput">Логин</label>
